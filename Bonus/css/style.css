@@ -23,39 +23,38 @@ body {
     height: 400px;
     background:linear-gradient(#ffc107,#e91e63);
     border-radius: 50%;
+    left: 30px;
 }
 
 
 svg {
     position: absolute;
     bottom: 0;
-    color: #e91e63;
-    fill:#e91e63
+    display: block;
 }
 .astronave {
     width: 240px;
     margin-top: 150px;
     position: absolute;   
-    color: grey;
     right: 0;
     animation: mymove 5s infinite;
 }
 
 @keyframes mymove {
-    from {left: 0px;}
+    from {left: 30px;}
     to {left: 80%;}
   }
 
 .den {
     position: absolute;
-    width: 150px;
+    width: 180px;
     margin-top: 120%;
     animation: denmove 5s linear;
     left: -100%; top: 40px;
 }
 @keyframes denmove {
-    0%{left: 80%;top: 3px;}
-    10%{left: 70%; top: 20px;}
+    0%{left: 60%;top: 3px;}
+    10%{left: 60%; top: 20px;}
     15%{left: 60%; top: 30px;}
     20%{left: 50%; top: 40px;}
     25%{left: 40%; top: 40px;}
