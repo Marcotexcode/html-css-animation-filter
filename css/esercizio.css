@@ -99,14 +99,15 @@
 
 
 
-/* Esercizio 8 */
+/* Esercizio 8 OK*/
 
-.ex-8-square {
-
+.ex-8-img {
+    transition: all 2s;
 }
 
-.ex-8-square:hover {
-
+.ex-8-img:hover {
+    border-radius: 20px;
+    filter: sepia(0.8);
 }
 
 
