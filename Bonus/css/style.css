@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+body {
+    background-image: url(../img/space.jpeg);
+    
+  }
+
+.planet {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background:linear-gradient(#ffc107,#e91e63);
+    border-radius: 50%;
+}
+
+
+svg {
+    position: absolute;
+    bottom: 0;
+    color: #e91e63;
+    fill:#e91e63
+}
+i {
+    margin-top: 150px;
+    position: absolute;
+    font-size: 100px;
+    color: grey;
+    right: 0;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 80%;}
+  }
+
+.planet2 {
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background:linear-gradient(#2196f3,#31ff38);
+    border-radius: 50%;
+    transform: translate(300%, 82px);
+}
+
+
+
