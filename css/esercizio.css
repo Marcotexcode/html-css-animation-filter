@@ -55,7 +55,7 @@
 
 
 
-/* Esercizio 5  ******************Corregere**********************/
+/* Esercizio 5  OK*/
 
 .ex-5-square {
     transition: all 1s;
@@ -69,9 +69,7 @@
 }
 
 .ex-5-square:active {
-    height: 40px;
-    width: 40px;
-   
+    transform: scale(.2);
 }
 
 
