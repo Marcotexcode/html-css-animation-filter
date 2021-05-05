@@ -113,28 +113,37 @@
 
 
 
-/* Esercizio 9 */
+/* Esercizio 9 ******************Corregere***********************/
 
-.ex-9-square {
-
+.ex-9-img {
+    transition: all 2s;
 }
 
-.ex-9-square:hover {
-
+.ex-9-img:hover {
+    /* border-radius: 20px;
+    filter: sepia(0.8);
+    height: 300px;
+    width: 500px;
+    padding: 0;
+    margin: 0; */
 }
 
 
 
 
-/* Esercizio 10 */
+/* Esercizio 10 OK*/
 
-.ex-10-square {
+.ex-10-icon {
 
+    animation-name: example;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
-.ex-10-square:hover {
-
-}
+@keyframes example {
+    100%  {transform: rotate(-360deg);}
+  }
 
 
 
